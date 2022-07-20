@@ -1,0 +1,107 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  font-family: 'Montserrat';
+  text-align: center;
+}
+
+.product-card {
+  margin: 125px auto;
+}
+
+/* Image Section */
+.product-image-section {
+  width: 225px;
+  text-align: right;
+  padding: 0;
+}
+.product-image {
+  width: 225px;
+  border-top-left-radius: 3%;
+  border-bottom-left-radius: 3%;
+  margin: 0;
+}
+
+/* Description Section */
+.right-section {
+  padding: 0;
+  text-align: center;
+}
+
+.product-desc-section {
+  width: 225px;
+  height: 337.5px;
+  text-align: left;
+  background-color: white;
+  border-top-right-radius: 3%;
+  border-bottom-right-radius: 3%;
+  padding-left: 20px;
+}
+
+/* Product Type */
+.product-type-name {
+  font-size: 10px;
+  padding: 15px 0;
+  color: hsl(228, 12%, 48%);
+}
+
+/* Product Name */
+.product-title {
+  font-family: 'Fraunces';
+  font-size: 1.5rem;
+  padding-right: 10px;
+}
+
+/* Product Description Text */
+.product-desc {
+  font-size: 10px;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+  padding-right: 20px;
+  margin: 15px 0;
+}
+
+/* Product Price */
+.price {
+  font-family: 'Fraunces';
+  color: hsl(158, 36%, 37%);
+  font-size: 25px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.stripped-price {
+  color: hsl(228, 12%, 48%);
+  font-size: 10px;
+  text-decoration: line-through;
+  position: relative;
+  bottom: 8px;
+  right: 10px;
+}
+
+/* Button */
+.btn {
+  background-color: hsl(158, 36%, 37%);
+  text-align: center;
+  font-size: 14px;
+  width: 180px;
+}
+
+.btn:hover {
+  background-color: #023020;
+}
+
+@media (max-width: 767px) {
+  .product-desc-section {
+    position: relative;
+    margin: auto;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 3%;
+  }
+
+  .product-image {
+    border-top-right-radius: 3%;
+    border-bottom-left-radius: 0;
+    height: 200px;
+  }
+}
